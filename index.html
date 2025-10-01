@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+    <title>Profile de Thearylou Lach</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
 
     <!--Header-->
+    <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,12 +45,12 @@
             </div>
         </div>
     </nav>
-
+    </header>
 
     <main class="container mt-4 pt-4">
 
         <!--a propos-->
-        <div class="info container mt-4">
+        <section class="info container mt-4">
             <div class="row justify-content-center">
                 <div class="col-8 d-flex">
                     <div class="row w-100">
@@ -63,27 +65,28 @@
                                 compétences
                                 au service de projets innovants et créatifs.
                             </p>
-
-                            <div class="col-7 d-flex align-items-end">
+                            <div class="col-7">
                                 <i class="bi bi-github fs-5"></i>
                                 <i class="bi bi-linkedin fs-5 ms-4"></i>
                                 <i class="bi bi-envelope-at-fill fs-5 ms-4"></i>
                             </div>
-
                         </div>
-                        <div class="col-5 d-flex justify-content-end">
+
+                        <div class="col-5 d-flex justify-content-end align-items-emd">
                             <img src="./logo-test.png" alt="photo" class="img-fluid photo" />
+                            
                         </div>
 
                     </div>
                 </div>
             </div>
-
+        </section>
             <!--competences-->
-            <div class="container mt-5 pt-5">
+            <section class="container mt-5 pt-5">
                 <div class="row justify-content-center">
-                    <div class="competence col-8">
-                        <div class="row justify-content-center text-center mt-4 mb-2">
+                    <div class="col-8">
+                        <div class="competence-border p-4">
+                        <div class="row justify-content-center text-center mt-2">
                             <div class="col-2">
                                 <svg width="48" height="48" viewBox="-1 0 20 20" version="1.1"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -107,7 +110,7 @@
                                     </g>
                                 </svg>
                                 </svg>
-                                <p class="mt-2 mb-2">HTML 5</p>
+                                <p class="mt-2 mb-0">HTML 5</p>
                             </div>
 
 
@@ -125,7 +128,7 @@
                                         </g>
                                     </g>
                                 </svg>
-                                <p class="mt-2 mb-2">CSS 3</p>
+                                <p class="mt-2 mb-0">CSS 3</p>
                             </div>
 
                             <div class="col-2">
@@ -150,7 +153,7 @@
                                         </g>
                                     </g>
                                 </svg>
-                                <p class="mt-2 mb-2">Javascript</p>
+                                <p class="mt-2 mb-0">Javascript</p>
                             </div>
 
                             <div class="col-2">
@@ -164,7 +167,7 @@
                                             fill="#ffffff"></path>
                                     </g>
                                 </svg>
-                                <p class="mt-2 mb-2">Bootstrap</p>
+                                <p class="mt-2 mb-0">Bootstrap</p>
                             </div>
 
                             <div class="col-2">
@@ -189,7 +192,7 @@
                                         </g>
                                     </g>
                                 </svg>
-                                <p class="mt-2 mb-2">WordPress</p>
+                                <p class="mt-2 mb-0">WordPress</p>
                             </div>
 
                             <div class="col-2">
@@ -203,93 +206,103 @@
                                             fill="#ffffff"></path>
                                     </g>
                                 </svg>
-                                <p class="mt-2 mb-2">Vue.js</p>
+                                <p class="mt-2 mb-0">Vue.js</p>
                             </div>
-
+                        </div>
 
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!--Projets-->
-            <div class="container mt-5 pt-5"> 
+            <section class="container mt-5 pt-5 ">
                 <div class="row justify-content-center">
                     <div class="col-8">
                         <h1 class="projets-titre">Projets</h1>
                         <div class="row row-cols-1 row-cols-md-2 g-4">
                             <div class="col">
-                                <div class="card h-100">
+                                <div class="card p-5 bg-transparent text-light">
                                     <img src="./logo-test.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
+                                    <div class="card-body p-0 pt-3 ">
                                         <h5 class="card-title">Projet 1</h5>
-                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural lead-in to additional content.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100">
+                                <div class="card p-5 bg-transparent text-light">
                                     <img src="./logo-test.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
+                                    <div class="card-body p-0 pt-3">
                                         <h5 class="card-title">Projet 2</h5>
-                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural lead-in to additional content.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100">
+                                <div class="card p-5 bg-transparent text-light">
                                     <img src="./logo-test.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
+                                    <div class="card-body p-0 pt-3">
                                         <h5 class="card-title">Projet 3</h5>
-                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural lead-in to additional content.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100">
+                                <div class="card p-5 bg-transparent text-light">
                                     <img src="./logo-test.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
+                                    <div class="card-body p-0 pt-3">
                                         <h5 class="card-title">Projet 4</h5>
-                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural lead-in to additional content.</p>
                                     </div>
                                 </div>
                             </div>
-                        </div> <!-- End of row-cols -->
-                    </div> <!-- End of col-8 -->
-                </div> <!-- End of row -->
-            </div> <!-- End of container -->
-            
+                        </div> 
+                    </div> 
+                </div> 
+            </section>
 
-                    <div class="container mt-5 pt-5">
-                        <div class="row justify-content-center">
-                            <div class="col-8">
-                                <h1>Contactez-moi</h1>
+            <!--Contact-->
+            <section class="container mt-5 pt-5">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <h1>Contactez-moi</h1>
 
-                                <div class="d-flex justify-content-center gap-4 mt-4">
-                                    <div class="contact border pt-3 pb-2 text-center flex-fill">
-                                        <h5>Courriel</h5>
-                                        <p>Thearylou@gmail.com</p>
-                                    </div>
+                        <div class="d-flex justify-content-center gap-4 mt-4">
+                            <div class="contact border pt-3 pb-2 text-center flex-fill">
+                                <h5>Courriel</h5>
+                                <p>Thearylou@gmail.com</p>
+                            </div>
 
-                                    <div class="contact border pt-3 pb-2 text-center flex-fill">
-                                        <h5>Réseaux sociaux</h5>
-                                        <i class="bi bi-github fs-5"></i>
-                                        <i class="bi bi-linkedin fs-5 ms-3"></i>
-                                    </div>
-                                </div>
-
+                            <div class="contact border pt-3 pb-2 text-center flex-fill">
+                                <h5>Réseaux sociaux</h5>
+                                <i class="bi bi-github fs-5"></i>
+                                <i class="bi bi-linkedin fs-5 ms-3"></i>
                             </div>
                         </div>
+
                     </div>
-
-
-
                 </div>
+            </section>
+
+        
     </main>
 
     <footer class="container d-flex justify-content-center mt-5 pt-5">© Thearylou Lach 2025</footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          watchSlidesProgress: true,
+          slidesPerView: 3,
+        });
+      </script>
 </body>
 
 </html>

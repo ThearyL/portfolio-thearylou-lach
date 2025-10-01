@@ -4,36 +4,47 @@ body {
     background-color: #02182B;
     color: white;
     font-family: 'Zalando Sans', sans-serif;
+    font-weight: lighter;
 }
 
 
 
 .text-purple {
     color: #7067CF;
+    font-weight:bold;
 }
 
 .photo {
     border-radius: 50%;
-    width: 225px;
-    height: 225px;
+    aspect-ratio: 1/1;
+    
 }
 
-.competence {
+.competence-border {
+    border: 1.7px solid white;
+    border-radius: 30px;
+}
+
+.card{
     border: 1.7px solid white;
     border-radius: 30px;
 }
 
 .card-img-top {
-    height: 300px;
-    object-fit: cover;
+    height: 200px;
     width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
+.card-body{
+    padding: none;
+}
 .projets-titre {
     margin-bottom: 24px;
 }
 
 .contact {
     border: 1.7px solid white;
-    border-radius: 20px;
+    border-radius: 30px;
 }
