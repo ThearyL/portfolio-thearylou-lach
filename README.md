@@ -7,7 +7,6 @@ https://www.figma.com/design/k0Fd9kEWRVylqaKTcVN9CF/Moodboard-portfolio?node-id=
 https://trello.com/invite/b/68c83066f701a0b63afe8acf/ATTI045447d1e6a36c085088f63ddc23b3a0414464C4/portfoliothearylou-lach
 
 ## Type de navigation
-Fenêtre modale
-
+multipage
 ## Composante Vue.js
 Dark mode / Light mode toggle
