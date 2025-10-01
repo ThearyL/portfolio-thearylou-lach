@@ -1,0 +1,36 @@
+body {
+    background-color: #02182B;
+    color: white;
+}
+
+
+
+.text-purple {
+    color: #7067CF;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+}
+
+.competence {
+    border: 1.7px solid white;
+    border-radius: 30px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.projets-titre {
+    margin-bottom: -24px;
+}
+
+.contact {
+    border: 1.7px solid white;
+    border-radius: 20px;
+}
