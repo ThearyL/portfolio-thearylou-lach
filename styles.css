@@ -14,8 +14,8 @@ body {
 
 .photo {
     border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
+    width: 225px;
+    height: 225px;
 }
 
 .competence {
@@ -30,7 +30,7 @@ body {
 }
 
 .projets-titre {
-    margin-bottom: -24px;
+    margin-bottom: 24px;
 }
 
 .contact {
