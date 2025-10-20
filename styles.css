@@ -1,18 +1,47 @@
 @import url(https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap);
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     background-color: #02182B;
     color: white;
     font-family: 'Zalando Sans', sans-serif;
     font-weight: lighter;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+svg {
+    transition: fill 0.3s ease,
+}
+
+body.light {
+    background-color: #F8F9FA;
+    color: black;
+
 }
 
 
 
 .text-purple {
-    color: #7067CF;
+    color: #8273D3;
     font-weight: bold;
 }
+
+
+.dark .text-purple {
+    color: #8273D3;
+    font-weight: bold;
+}
+
+.light .text-purple {
+    color: #7060CD;
+    font-weight: bold;
+}
+
 
 .photo-profile {
     border-radius: 50%;
@@ -23,49 +52,114 @@ body {
 
 
 .competence-border {
-    border: 1.7px solid rgb(206, 206, 206);
-    border-radius: 30px;
+    border: 1.8px solid #2C496B;
+    background-color: #021628;
+    border-radius: 16px;
+    transition: background-color 0.3s ease, border 0.3s ease;
 }
 
+.light .competence-border {
+    border: 1.8px solid #c4c4c4;
+    background-color: #F1F3F5;
+    border-radius: 16px;
+}
+
+/*AABDD3*/
 .card {
-    border: 1.7px solid rgb(206, 206, 206);
-    border-radius: 30px;
+    border: 1.8px solid #2C496B;
+    border-radius: 16px;
+    background-color: #021628;
+    color: #E0E6ED;
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+.light .card {
+    color: black;
+    border: 1.8px solid #c4c4c4;
+    background-color: #F1F3F5;
+}
+
+.light .card:hover {
+    border: 1.8px solid rgb(27, 27, 27);
+    background-color: rgb(27, 27, 27);
+    color: white;
+
+}
+
+
+.card:hover {
+    border: 1.8px solid rgb(239, 241, 245);
+    background-color: rgb(239, 241, 245);
+    color: black;
+
 }
 
 .card-img-top {
     height: 200px;
     width: 100%;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 16px;
 }
 
 .card-body {
     padding: none;
 }
 
+
 .pillule {
-    border-radius: 30px;
+    border-radius: 16px;
     color: black;
-    background-color: rgb(238, 238, 238);
+    background-color: #FCFCFC;
     margin-left: 0.75rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.light .pillule {
+    color: white;
+    background-color: #121212;
+}
+
+
+.card:hover .pillule {
+    background-color: #695deb;
+    color: #F8F9FA;
+
+
+}
+
+.light .card:hover .pillule {
+    background-color: #8C83EC;
+    color: #111111;
+
+
+}
+
+.contact {
+    border: 1.8px solid #2C496B;
+    background-color: #021628;
+    color: #E0E6ED;
+    border-radius: 16px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.light .contact {
+    border: 1.8px solid #c4c4c4;
+    color: black;
+    background-color: #F1F3F5;
+}
 
 
 .projets-titre {
     margin-bottom: 24px;
 }
 
-.contact {
-    border: 1.7px solid rgb(206, 206, 206);
-    border-radius: 30px;
-}
+
 
 .photo-projet {
     max-width: 100%;
     width: 100%;
     height: 368px;
-    border-radius: 24px;
+    border-radius: 8px;
     display: block;
 
 }
@@ -74,13 +168,21 @@ body {
     max-width: 100%;
     width: 100%;
     height: 256px;
-    border-radius: 24px;
+    border-radius: 8px;
 
 }
 
-.row-competence {
-    margin-left: -1.65rem;
+@media (max-width: 370px) {
+    .emoji {
+        display: none;
+
+    }
+
+    .photo-projet {
+        height: 268px;
+    }
 }
+
 
 .projet-border {
     position: relative;
@@ -96,10 +198,72 @@ body {
     width: 840px;
     max-width: 100%;
     height: 100%;
-    border: 2px solid #ccc;
-    border-radius: 24px;
+    border: 1.9px solid #2C496B;
+    border-radius: 16px;
     pointer-events: none;
     z-index: 0;
     box-sizing: border-box;
     /* include border in width */
+}
+
+.light .projet-border::before {
+    border: 1.9px solid #c4c4c4;
+}
+
+@media (max-width: 768px) {
+    .projet-border::before {
+        max-width: 100%;
+        border: none;
+    }
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.1em;
+    animation: sroll 12s infinite linear;
+    padding-right: 10em;
+    width: max-content;
+}
+
+.carousel:hover .group {
+    animation-play-state: paused;
+}
+
+.logo {
+    flex: 0 0 6em;
+    height: 6em;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    animation-play-state: paused;
+    font-weight: bolder;
+}
+
+@keyframes sroll {
+    from {
+        translate: 0%;
+    }
+
+    to {
+        translate: -100%;
+    }
 }
