@@ -4,7 +4,9 @@ html {
     margin: 0;
     padding: 0;
 }
-
+h1{
+font-size: 2.475em;
+}
 
 body {
     background-color: #02182B;
@@ -46,9 +48,12 @@ body.light {
 .photo-profile {
     border-radius: 50%;
     aspect-ratio: 1/1;
+  
     max-width: 100%;
 
 }
+
+
 
 
 .competence-border {
@@ -73,6 +78,10 @@ body.light {
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
 }
 
+.card-text{
+    min-height: 4.5em;
+}
+
 .light .card {
     color: black;
     border: 1.8px solid #c4c4c4;
@@ -95,7 +104,7 @@ body.light {
 }
 
 .card-img-top {
-    height: 200px;
+    height: 225px;
     width: 100%;
     object-fit: cover;
     border-radius: 16px;
@@ -109,9 +118,20 @@ body.light {
 .pillule {
     border-radius: 16px;
     color: black;
-    background-color: #FCFCFC;
-    margin-left: 0.75rem;
+    background-color: #E0E6ED;
+    margin-left: 0.75em;
+    margin-top: 0.75em;
     transition: background-color 0.3s ease, color 0.3s ease;
+   
+    padding: 4px 12px;
+    font-weight: 330;
+   font-size: 0.8em;
+   white-space: nowrap; /* Keep text on one line */
+   flex-shrink: 1; /* Allows shrinking */
+   max-width: 100%; /* Prevents overflow */
+ 
+ 
+   
 }
 
 .light .pillule {
@@ -172,7 +192,7 @@ body.light {
 
 }
 
-@media (max-width: 370px) {
+@media (max-width: 512px) {
     .emoji {
         display: none;
 
@@ -203,7 +223,7 @@ body.light {
     pointer-events: none;
     z-index: 0;
     box-sizing: border-box;
-    /* include border in width */
+ 
 }
 
 .light .projet-border::before {
@@ -235,8 +255,8 @@ body.light {
     justify-content: center;
     gap: 2.1em;
     animation: sroll 12s infinite linear;
-    padding-right: 10em;
-    width: max-content;
+    padding-right: 2.1em;
+  
 }
 
 .carousel:hover .group {
