@@ -47,6 +47,21 @@ const app = Vue.createApp({
     },
     mounted() {
         this.getProjet();
+       
+         const params = new URLSearchParams(window.location.search);
+         const projectId = params.get("proj-id");
+ 
+         fetch("./projets.json")
+           .then(res => res.json())
+           .then(data => {
+             this.projet = data.find(p => p.id == projectId);
+           });
+
+           const match = document.cookie.match(/theme=(dark|light)/);
+           if (match) {
+             this.theme = match[1];
+             document.body.className = this.theme;
+           }
     },
     methods: {
         getProjet() {
@@ -63,6 +78,10 @@ const app = Vue.createApp({
         toggleTheme() {
             this.theme = this.theme === "dark" ? "light" : "dark";
             document.body.className = this.theme;
-        }
+            document.cookie = `theme=${this.theme}; path=/; max-age=31536000`
+        },
+        goToProject(id) {
+            window.location.href = `projet.html?proj-id=${id}`;
+          }
     }
 }).mount("#app");

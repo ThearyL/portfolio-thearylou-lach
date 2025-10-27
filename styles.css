@@ -343,7 +343,6 @@ body.light {
     border: 1.9px solid #2C496B;
     border-radius: 16px;
     pointer-events: none;
-    z-index: 0;
     box-sizing: border-box;
     background-color: #021628;
     z-index: -1;
@@ -372,7 +371,7 @@ body.light {
     display: flex;
     flex-wrap: nowrap;
     width: max-content;
-    animation: scroll 14s linear infinite;
+    animation: scroll 16s linear infinite;
 }
 
 .carousel:hover .carousel-sub {
