@@ -17,33 +17,25 @@
     <div id="app" :class="theme">
         <!---------------------------------Header------------------------------->
         <header>
-            <nav class="navbar navbar-expand-lg bg-transparent"
-                :class="theme == 'dark' ? 'navbar-dark bg-dark' : 'navbar-light bg-light'">
+            <nav class="navbar navbar-expand bg-transparent" :class="theme == 'dark' ? 'navbar-dark' : 'navbar-light'">
                 <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="row w-100 justify-content-center">
-                            <div class="col-8 d-flex justify-content-center align-items-center p-0">
-                                <ul class="navbar-nav flex-grow-1 ps-3">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Acceuil</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Projets</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contacts</a>
-                                    </li>
-                                </ul>
-                                <button @click="toggleTheme" class="btn mt-1 p-0">
-                                    <i
-                                        :class="theme == 'dark' ? 'bi bi-sun-fill text-white fs-5' : 'bi bi-moon-fill text-dark fs-5'"></i>
-                                </button>
-                            </div>
+                    <div class="row w-100 justify-content-center">
+                        <div class="col col-lg-8 d-flex justify-content-center align-items-center p-0">
+                            <ul class="navbar-nav flex-grow-1 ps-3">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html#accueil">Acceuil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#projets">Projets</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#contacts">Contacts</a>
+                                </li>
+                            </ul>
+                            <button @click="toggleTheme" class="btn mt-1 p-0">
+                                <i
+                                    :class="theme == 'dark' ? 'bi bi-sun-fill text-white fs-5' : 'bi bi-moon-fill text-dark fs-5'"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -51,7 +43,7 @@
         </header>
 
         <main class="container mt-4 pt-md-4 pt-2">
-            <div class="projet-border p-3 pt-md-3 pb-md-5 p-xl-5 pt-xl-4">
+            <div class="projet-border p-3 pt-md-3 pb-md-5 p-md-0 p-xl-3 pt-xl-4">
 
                 <!-------------------------------Projet------------------------------>
                 <section class="container mt-4 ">

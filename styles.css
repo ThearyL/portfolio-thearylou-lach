@@ -4,8 +4,11 @@ html {
     margin: 0;
     padding: 0;
 }
-h1{
-font-size: 2.475em;
+
+
+h1 {
+    font-size: 2.475em;
+
 }
 
 body {
@@ -15,6 +18,7 @@ body {
     font-weight: lighter;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 
 svg {
     transition: fill 0.3s ease,
@@ -26,7 +30,30 @@ body.light {
 
 }
 
+.navbar-nav {
+    font-size: 1.025em;
+    font-weight: 200;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
 
+.nav-link {
+    transition: color 0.1s ease;
+}
+
+.nav-link:hover {
+    color: white;
+
+}
+
+.light .nav-link:hover {
+    color: black;
+
+}
+
+.text-propos {
+    text-align: justify;
+}
 
 .text-purple {
     color: #8273D3;
@@ -48,11 +75,42 @@ body.light {
 .photo-profile {
     border-radius: 50%;
     aspect-ratio: 1/1;
-  
     max-width: 100%;
+    height: 69%;
+    object-fit: cover;
+    object-position: 50% 30%;
+
 
 }
 
+.bi-github:hover {
+    color: #8273D3;
+}
+
+.bi-linkedin:hover {
+    color: #8273D3;
+}
+
+.bi-envelope-at-fill:hover {
+    color: #8273D3;
+}
+
+.light .bi-github:hover {
+    color: #7060CD;
+}
+
+.light .bi-linkedin:hover {
+    color: #7060CD;
+}
+
+.light .bi-envelope-at-fill:hover {
+    color: #8273D3;
+}
+
+.social-icon {
+    color: inherit;
+    text-decoration: none;
+}
 
 
 
@@ -69,16 +127,28 @@ body.light {
     border-radius: 16px;
 }
 
-/*AABDD3*/
 .card {
     border: 1.8px solid #2C496B;
     border-radius: 16px;
     background-color: #021628;
     color: #E0E6ED;
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
-.card-text{
+
+
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text {
     min-height: 4.5em;
 }
 
@@ -110,6 +180,8 @@ body.light {
     border-radius: 16px;
 }
 
+
+
 .card-body {
     padding: none;
 }
@@ -118,25 +190,31 @@ body.light {
 .pillule {
     border-radius: 16px;
     color: black;
-    background-color: #E0E6ED;
-    margin-left: 0.75em;
-    margin-top: 0.75em;
+    background-color: rgb(224, 230, 236);
+
+    margin: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
-   
     padding: 4px 12px;
     font-weight: 330;
-   font-size: 0.8em;
-   white-space: nowrap; /* Keep text on one line */
-   flex-shrink: 1; /* Allows shrinking */
-   max-width: 100%; /* Prevents overflow */
- 
- 
-   
+    font-size: 0.8em;
+    white-space: nowrap;
+    flex-shrink: 1;
+    max-width: 100%;
+    --bs-gutter-x: 0;
 }
+
+.pills-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.6rem;
+
+}
+
 
 .light .pillule {
     color: white;
     background-color: #121212;
+
 }
 
 
@@ -192,6 +270,8 @@ body.light {
 
 }
 
+
+
 @media (max-width: 512px) {
     .emoji {
         display: none;
@@ -203,13 +283,55 @@ body.light {
     }
 }
 
+@media (min-width: 1200px) and (max-width: 1400px) {
+    h1 {
+        font-size: 2.25em;
+    }
+
+    .photo-profile {
+
+        height: 87%;
+
+    }
+}
+
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .photo-profile {
+        max-width: 25%;
+        height: auto;
+
+    }
+}
+
+@media (max-width: 990px) {
+    .photo-profile {
+        max-width: 35%;
+        height: auto;
+
+    }
+}
+
+
+@media (max-width: 767px) {
+    .photo-profile {
+        max-width: 50%;
+        height: auto;
+
+    }
+}
+
+
 
 .projet-border {
     position: relative;
 
+
+
 }
 
 .projet-border::before {
+    transition: background-color 0.3s ease, border 0.3s ease;
     content: "";
     position: absolute;
     top: 0;
@@ -223,11 +345,15 @@ body.light {
     pointer-events: none;
     z-index: 0;
     box-sizing: border-box;
- 
+    background-color: #021628;
+    z-index: -1;
+
+
 }
 
 .light .projet-border::before {
     border: 1.9px solid #c4c4c4;
+    background-color: #F1F3F5;
 }
 
 @media (max-width: 768px) {
@@ -238,52 +364,46 @@ body.light {
 }
 
 .carousel {
-    display: flex;
+    overflow: hidden;
     width: 100%;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    overflow-x: auto;
 }
 
-.carousel::-webkit-scrollbar {
-    display: none;
+.carousel-sub {
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    animation: scroll 14s linear infinite;
+}
+
+.carousel:hover .carousel-sub {
+    animation-play-state: paused;
 }
 
 .group {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.1em;
-    animation: sroll 12s infinite linear;
-    padding-right: 2.1em;
-  
-}
-
-.carousel:hover .group {
-    animation-play-state: paused;
+    gap: 2em;
+    padding-right: 1.9em;
 }
 
 .logo {
-    flex: 0 0 6em;
+    flex: 0 0 auto;
     height: 6em;
     padding: 1em;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
 .logo:hover {
-    transform: scale(1.1);
-    animation-play-state: paused;
-    font-weight: bolder;
+    transform: scale(1.07);
+    font-weight: 230;
+
 }
 
-@keyframes sroll {
+@keyframes scroll {
     from {
-        translate: 0%;
+        transform: translateX(0);
     }
 
     to {
-        translate: -100%;
+        transform: translateX(-50%);
     }
 }

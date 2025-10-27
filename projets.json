@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "L'épée oubliée",
+        "category": "3d",
+        "skills": [
+            "Davinci Resolve",
+            "Illustrator",
+            "After Effect"
+        ],
+        "images": [
+            "./image/projet_jeu_accueil.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "La Pillule",
+        "category": "video",
+        "skills": [
+            "Davinci Resolve",
+            "Illustrator",
+            "After Effect"
+        ],
+        "images": [
+            "./image/projet_video_accueil.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Site web vitrine",
+        "category": "video",
+        "skills": [
+            "Davinci Resolve",
+            "Illustrator",
+            "After Effect"
+        ],
+        "images": [
+            "./image/projet_design_siteweb_accueil.jpg",
+            "./chemin/vers/votre/img2-2.jpg",
+            "./chemin/vers/votre/img2-3.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Site web Magazine",
+        "category": "video",
+        "skills": [
+            "Davinci Resolve",
+            "Illustrator",
+            "After Effect"
+        ],
+        "images": [
+            "./image/projet_wordpress_accueil.jpg"
+        ]
+    }
+]
