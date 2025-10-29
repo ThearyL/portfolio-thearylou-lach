@@ -101,7 +101,7 @@ const app = Vue.createApp({
         toggleTheme() {
             this.theme = this.theme === "dark" ? "light" : "dark";
             document.body.className = this.theme;
-
+            //sauvegarde locale
             localStorage.setItem('theme', this.theme);
 
         },
