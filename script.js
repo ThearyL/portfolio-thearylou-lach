@@ -44,7 +44,8 @@ const app = Vue.createApp({
                 shortDescription: "",
                 category: "",
                 skills: [],
-                images: []
+                images: [],
+                alt: []
             }]
         };
     },

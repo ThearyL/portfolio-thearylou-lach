@@ -627,8 +627,9 @@
                                 <!----------- redirect a un URL avec son ID specifique  ------------>
                                 <div class="card  p-4" @click="goToProject(donnee.id)">
                                     <!----------- contenu  ------------>
-                                    <!----------- image ------------>
-                                    <img :src="donnee.images[0]" class="card-img-top" :alt="donnee.title" />
+                                    <!----------- image|chargement de alt avant--------->
+                                    <img v-if="donnee.alt" :src="donnee.images[0]" class="card-img-top"
+                                        :alt="donnee.alt[0]" />
                                     <!-----------corps ------------>
                                     <div class="card-body p-0 pt-3">
                                         <h5 class="card-title">{{ donnee.title }}</h5>

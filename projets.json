@@ -3,7 +3,7 @@
         "id": 1,
         "title": "L'épée oubliée",
         "category": "Jeu 2D",
-        "shortDescription": "Un jeu 2D compatible sur le navigateur.",
+        "shortDescription": "Créer un jeu 2D compatible sur le navigateur.",
         "description": "Réaliser un projet ludique sur ordinateur qui intègre des images et des échantillons sonores libres de droits. Créer une expérience ludique à travers laquelle l’interacteur progresse selon ses actions. Ce jeu se déroule dans un donjon à deux niveaux, où chaque vague d'ennemis doit être éliminée pour obtenir une clé permettant de passer au niveau suivant. Le joueur doit survivre aux ennemis croissants et maîtriser les stratégies de combat pour progresser à travers le donjon.",
         "team": "Thearylou Lach (créateur)",
         "skills": [
@@ -15,6 +15,12 @@
             "./image/jeu_phaser_01.png",
             "./image/jeu_phaser_03.png",
             "./image/jeu_phaser_04.jpg"
+        ],
+        "alt": [
+            "Jeu Phaser",
+            "l'épée oubliée en jeu",
+            "l'épée oubliée en jeu",
+            "l'épée oubliée en jeu"
         ],
         "link": "https://ntrace.itch.io/lepee-oubliee?classId=bad76dca-86a6-451b-bbc0-70aa50a3142e&assignmentId=1c974c83-31dd-493c-9854-7b0793ee92bb&submissionId=86f5f24d-1350-eff7-bbc2-49a2b53ea247"
     },
@@ -36,6 +42,12 @@
             "./image/02_la_pilule_presentation.png",
             "./image/03_la_pilule_presentation.png"
         ],
+        "alt": [
+            "La Pilule",
+            "La Pilule scène 1",
+            "La Pilule scène 2",
+            "La Pilule scène 3"
+        ],
         "link": "https://youtu.be/4yuEefaBhws"
     },
     {
@@ -46,7 +58,7 @@
         "description": "Démontrer le processus de création d'un site web en appliquant les notions de designs apprises en classe. Il s’agit également de savoir utiliser efficacement les différents outils de Figma. Redésigner sur Figma certaines pages du site web d’un musée canadien en nous inspirant d’autres sites. Utilisation des planches d’inspiration et de style ainsi que des maquettes filaires et graphiques pour réaliser ce projet, et le rendre interactif.",
         "team": "Thearylou Lach (créateur)",
         "skills": [
-            " Figma"
+            "Figma"
         ],
         "images": [
             "./image/projet_design_siteweb_accueil.jpg",
@@ -61,6 +73,20 @@
             "./image/maquette_filaire_heures_admission.jpg",
             "./image/maquette_graphique_acceuil_desktop.jpg",
             "./image/maquette_graphique_heures_admission_desktop.jpg"
+        ],
+        "alt": [
+            "Site Vitrine",
+            "Maquette graphique acceueil desktop",
+            "Maquette graphique acceueil mobile",
+            "Maquette graphique admission desktop",
+            "Planche d'inspiration",
+            "Planche de styles",
+            "Arborescence",
+            "Maquettes filaires",
+            "Maquette filaire acceuil",
+            "Maquette filaire admission",
+            "Maquette graphique accueil",
+            "Maquette graphique admission"
         ]
     },
     {
@@ -79,6 +105,12 @@
             "./image/wordpress_projet_01.png",
             "./image/wordpress_projet_02.png",
             "./image/wordpress_projet_04.png"
+        ],
+        "alt": [
+            "L'espace Intégral",
+            "L'espace Intégral accueil",
+            "L'espace Intégral article",
+            "L'espace contactte"
         ]
     }
 ]
