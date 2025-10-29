@@ -2,55 +2,83 @@
     {
         "id": 1,
         "title": "L'épée oubliée",
-        "category": "3d",
+        "category": "Jeu 2D",
+        "shortDescription": "Un jeu 2D compatible sur le navigateur.",
+        "description": "Réaliser un projet ludique sur ordinateur qui intègre des images et des échantillons sonores libres de droits. Créer une expérience ludique à travers laquelle l’interacteur progresse selon ses actions. Ce jeu se déroule dans un donjon à deux niveaux, où chaque vague d'ennemis doit être éliminée pour obtenir une clé permettant de passer au niveau suivant. Le joueur doit survivre aux ennemis croissants et maîtriser les stratégies de combat pour progresser à travers le donjon.",
+        "team": "Thearylou Lach (créateur)",
         "skills": [
-            "Davinci Resolve",
-            "Illustrator",
-            "After Effect"
+            "Phaser",
+            "JavaScript"
         ],
         "images": [
-            "./image/projet_jeu_accueil.jpg"
-        ]
+            "./image/projet_jeu_accueil.jpg",
+            "./image/jeu_phaser_01.png",
+            "./image/jeu_phaser_03.png",
+            "./image/jeu_phaser_04.jpg"
+        ],
+        "link": "https://ntrace.itch.io/lepee-oubliee?classId=bad76dca-86a6-451b-bbc0-70aa50a3142e&assignmentId=1c974c83-31dd-493c-9854-7b0793ee92bb&submissionId=86f5f24d-1350-eff7-bbc2-49a2b53ea247"
     },
     {
         "id": 2,
-        "title": "La Pillule",
-        "category": "video",
+        "title": "La Pilule",
+        "category": "Vidéo et photographie",
+        "shortDescription": "Création d'un court métrage en stop-motion avec des animations 2D et une piste sonore ambiguë.",
+        "description": " Un court métrage de plus d’une minute, réalisé en stop-motion avec un minimum de 800 prises de photos. Ensuite, en post-production, il faudra assembler la vidéo à partir des photos prises, y ajouter le son et intégrer les animations créées. J’ai conçu et réalisé une vidéo en explorant un univers visuel rouge où un écrivain prend une pilule et il se perd dans la réalité et l'imaginaire. J'ai travaillé sur la mise en scène, la conception sonore, l’animation et le montage.",
+        "team": "Thearylou Lach (réalisateur),Ting yung Lu (directeur de la photographie), Nicolas Cruz (concepteur sonore) et Xavier Martineau (directeur artistique)",
         "skills": [
             "Davinci Resolve",
             "Illustrator",
             "After Effect"
         ],
         "images": [
-            "./image/projet_video_accueil.jpg"
-        ]
+            "./image/projet_video_accueil.jpg",
+            "./image/01_la_pilule_presentation.png",
+            "./image/02_la_pilule_presentation.png",
+            "./image/03_la_pilule_presentation.png"
+        ],
+        "link": "https://youtu.be/4yuEefaBhws"
     },
     {
         "id": 3,
-        "title": "Site web vitrine",
-        "category": "video",
+        "title": "Site Web vitrine",
+        "category": "Design graphique et Web",
+        "shortDescription": "Redésigner quelques pages d'un site Web.",
+        "description": "Démontrer le processus de création d'un site web en appliquant les notions de designs apprises en classe. Il s’agit également de savoir utiliser efficacement les différents outils de Figma. Redésigner sur Figma certaines pages du site web d’un musée canadien en nous inspirant d’autres sites. Utilisation des planches d’inspiration et de style ainsi que des maquettes filaires et graphiques pour réaliser ce projet, et le rendre interactif.",
+        "team": "Thearylou Lach (créateur)",
         "skills": [
-            "Davinci Resolve",
-            "Illustrator",
-            "After Effect"
+            " Figma"
         ],
         "images": [
             "./image/projet_design_siteweb_accueil.jpg",
-            "./chemin/vers/votre/img2-2.jpg",
-            "./chemin/vers/votre/img2-3.jpg"
+            "./image/maquette_graphique_acceuil_desktop.jpg",
+            "./image/maquette_graphique_acceuil_mobile.jpg",
+            "./image/maquette_graphique_heures_admission_desktop.jpg",
+            "./image/planche_inspiration.jpg",
+            "./image/planche_de_styles.jpg",
+            "./image/Arborescence.jpg",
+            "./image/maquette_filaire_ecart.JPG",
+            "./image/maquette_filaire_acceuil _desktop.jpg",
+            "./image/maquette_filaire_heures_admission.jpg",
+            "./image/maquette_graphique_acceuil_desktop.jpg",
+            "./image/maquette_graphique_heures_admission_desktop.jpg"
         ]
     },
     {
         "id": 4,
-        "title": "Site web Magazine",
-        "category": "video",
+        "title": "L'espace Intégral",
+        "category": "Web",
+        "shortDescription": "Créer un site WordPress en équipe à partir d'un thème et de plugins.",
+        "description": "L’objectif de ce travail personel est de concevoir, développer et présenter un magazine Web sous WordPress, en intégrant l’ensemble des notions vues durant la session, dans un contexte collaboratif. On a créé ensemble un magazine web sur l’espace avec WordPress en utilisant un thème adapté. On y a ajouté des images, des textes, ainsi que des extensions et une API pour réaliser ce projet. Ce projet est hébergé sur HostPapa",
+        "team": "Ryan Dufault (directeur), Thearylou Lach (co-créateur) et Yannick Chamberland (co-créateur)",
         "skills": [
-            "Davinci Resolve",
-            "Illustrator",
-            "After Effect"
+            "WordPress",
+            "MAMP"
         ],
         "images": [
-            "./image/projet_wordpress_accueil.jpg"
+            "./image/projet_wordpress_accueil.jpg",
+            "./image/wordpress_projet_01.png",
+            "./image/wordpress_projet_02.png",
+            "./image/wordpress_projet_04.png"
         ]
     }
 ]
