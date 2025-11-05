@@ -26,7 +26,17 @@ body {
     color: white;
     font-family: 'Zalando Sans', sans-serif;
     font-weight: lighter;
+    transition: background-color 0.3s ease, color 0.3s ease;
 
+}
+
+
+body:not(.dark) {
+    background-color: #F8F9FA;
+    color: black;
+    font-family: 'Zalando Sans', sans-serif;
+    font-weight: lighter;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark {
@@ -126,6 +136,14 @@ body.light {
 .social-icon {
     color: inherit;
     text-decoration: none;
+}
+
+.email-text:hover {
+    color: #8273D3;
+}
+
+.light .email-text:hover {
+    color: #7060CD;
 }
 
 
@@ -254,7 +272,7 @@ body.light {
 }
 
 
-.pillule {
+.pilule {
     border-radius: 16px;
     color: black;
     background-color: rgb(224, 230, 236);
@@ -270,7 +288,7 @@ body.light {
     --bs-gutter-x: 0;
 }
 
-.pillule-projet {
+.pilule-projet {
     background-color: #695deb;
     color: white;
     padding: 8px 16px;
@@ -282,9 +300,10 @@ body.light {
     align-items: center;
     font-weight: bolder;
 
+
 }
 
-.light .pillule-projet {
+.light .pilule-projet {
     background-color: #8C83EC;
     color: black;
 
@@ -299,21 +318,21 @@ body.light {
 }
 
 
-.light .pillule {
+.light .pilule {
     color: white;
     background-color: #121212;
 
 }
 
 
-.card:hover .pillule {
+.card:hover .pilule {
     background-color: #695deb;
     color: #F8F9FA;
 
 
 }
 
-.light .card:hover .pillule {
+.light .card:hover .pilule {
     background-color: #8C83EC;
     color: #111111;
 
@@ -431,6 +450,30 @@ body.light {
 
 }
 
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .projet-border::before {
+        width: 45em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .projet-border::before {
+        width: 38em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .projet-border::before {
+        width: 42em;
+    }
+}
+
+@media (max-width: 767px) {
+    .projet-border::before {
+        width: 31em;
+    }
+}
+
 .light .projet-border::before {
     border: 1.9px solid #c4c4c4;
     background-color: #F1F3F5;
@@ -448,6 +491,13 @@ body.light {
     width: 100%;
     height: 256px;
     border-radius: 8px;
+    object-fit: cover;
+
+}
+
+.carousel-inner img {
+
+    height: 450px;
     object-fit: cover;
 
 

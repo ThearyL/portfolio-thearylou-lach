@@ -33,6 +33,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
+window.addEventListener("load", () => {
+    if (window.location.hash) {
+        const target = document.querySelector(window.location.hash);
+        if (target) {
+            setTimeout(() => {
+                target.scrollIntoView({ behavior: "smooth" });
+            }, 50);
+        }
+    }
+});
+
 const app = Vue.createApp({
     data() {
         return {
