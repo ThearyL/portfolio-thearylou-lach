@@ -13,8 +13,8 @@
         "images": [
             "./image/projet_jeu_accueil.jpg",
             "./image/jeu_phaser_01.png",
-            "./image/jeu_phaser_02.jpg",
-            "./image/jeu_phaser_03.jpg"
+            "./image/jeu_phaser_02.JPG",
+            "./image/jeu_phaser_03.JPG"
         ],
         "alt": [
             "Jeu Phaser",
