@@ -13,8 +13,8 @@
         "images": [
             "./image/projet_jeu_accueil.jpg",
             "./image/jeu_phaser_01.png",
-            "./image/jeu_phaser_03.png",
-            "./image/jeu_phaser_04.jpg"
+            "./image/jeu_phaser_02.jpg",
+            "./image/jeu_phaser_03.jpg"
         ],
         "alt": [
             "Jeu Phaser",
@@ -29,7 +29,7 @@
         "title": "La Pilule",
         "category": "Vidéo et photographie",
         "shortDescription": "Création d'un court métrage en stop-motion avec des animations 2D et une piste sonore ambiguë.",
-        "description": " Un court métrage de plus d’une minute, réalisé en stop-motion avec un minimum de 800 prises de photos. Ensuite, en post-production, il faudra assembler la vidéo à partir des photos prises, y ajouter le son et intégrer les animations créées. J’ai conçu et réalisé une vidéo en explorant un univers visuel rouge où un écrivain prend une pilule et il se perd dans la réalité et l'imaginaire. J'ai travaillé sur la mise en scène, la conception sonore, l’animation et le montage.",
+        "description": " Un court métrage de plus d’une minute, réalisé en stop-motion avec un minimum de 800 prises de photos. Ensuite, en post-production, il faudra assembler la vidéo à partir des photos prises, y ajouter le son et intégrer les animations créées. Mes coéquipiers et moi avons conçu et réalisé une vidéo en explorant un univers visuel rouge où un écrivain prend une pilule et il se perd dans la réalité et l'imaginaire. J'ai travaillé sur la mise en scène, la conception sonore, l’animation et le montage.",
         "team": "Thearylou Lach (réalisateur),Ting yung Lu (directeur de la photographie), Nicolas Cruz (concepteur sonore) et Xavier Martineau (directeur artistique)",
         "skills": [
             "Davinci Resolve",
@@ -38,9 +38,9 @@
         ],
         "images": [
             "./image/projet_video_accueil.jpg",
-            "./image/01_la_pilule_presentation.png",
-            "./image/02_la_pilule_presentation.png",
-            "./image/03_la_pilule_presentation.png"
+            "./image/02_la_pilule_presentation.jpg",
+            "./image/01_la_pilule_presentation.jpg",
+            "./image/03_la_pilule_presentation.jpg"
         ],
         "alt": [
             "La Pilule",
@@ -62,9 +62,9 @@
         ],
         "images": [
             "./image/projet_design_siteweb_accueil.jpg",
-            "./image/maquette_graphique_acceuil_desktop.jpg",
-            "./image/maquette_graphique_acceuil_mobile.jpg",
-            "./image/maquette_graphique_heures_admission_desktop.jpg",
+            "./image/maquette_exemple_01.jpg",
+            "./image/maquette_exemple_02.jpg",
+            "./image/maquette_exemple_03.jpg",
             "./image/planche_inspiration.jpg",
             "./image/planche_de_styles.jpg",
             "./image/Arborescence.jpg",
@@ -76,9 +76,9 @@
         ],
         "alt": [
             "Site Vitrine",
-            "Maquette graphique acceueil desktop",
-            "Maquette graphique acceueil mobile",
-            "Maquette graphique admission desktop",
+            "Figma projet",
+            "Figma projet",
+            "Figma projet",
             "Planche d'inspiration",
             "Planche de styles",
             "Arborescence",
