@@ -468,11 +468,15 @@ body.light {
     }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 531px) and (max-width: 767px) {
     .projet-border::before {
         width: 31em;
     }
 }
+
+
+
+
 
 .light .projet-border::before {
     border: 1.9px solid #c4c4c4;
@@ -507,4 +511,10 @@ body.light {
     height: 450px;
     object-fit: cover;
     object-position: top;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner img {
+        height: 300px;
+    }
 }
