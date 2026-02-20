@@ -14,36 +14,31 @@ h1 {
 
 a {
     text-decoration: none;
-    color: white;
-}
-
-.light a {
     color: black;
 }
 
 body {
-    background-color: #02182B;
-    color: white;
+    background-color: #F8F9FA;
+    color: black;
     font-family: 'Zalando Sans', sans-serif;
     font-weight: lighter;
     transition: background-color 0.3s ease, color 0.3s ease;
 
 }
 
-
-
-body.dark {
-    transition: background-color 0.3s ease, color 0.3s ease;
+footer {
+    color: #6e6e6e;
 }
 
 svg {
     transition: fill 0.3s ease,
 }
 
-body.light {
-    background-color: #F8F9FA;
-    color: black;
 
+.light-line {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #c4c4c4, transparent);
 }
 
 
@@ -60,14 +55,9 @@ body.light {
 }
 
 .nav-link:hover {
-    color: white;
-
+    color: black
 }
 
-.light .nav-link:hover {
-    color: black;
-
-}
 
 /* --------------A propos----------*/
 .text-propos {
@@ -75,17 +65,6 @@ body.light {
 }
 
 .text-purple {
-    color: #8273D3;
-    font-weight: bold;
-}
-
-
-.dark .text-purple {
-    color: #8273D3;
-    font-weight: bold;
-}
-
-.light .text-purple {
     color: #7060CD;
     font-weight: bold;
 }
@@ -98,31 +77,21 @@ body.light {
     height: 69%;
     object-fit: cover;
     object-position: 50% 30%;
-
+    border-color: #111111;
 
 }
 
+
+
 .bi-github:hover {
-    color: #8273D3;
+    color: #7060CD;
 }
 
 .bi-linkedin:hover {
-    color: #8273D3;
+    color: #7060CD;
 }
 
 .bi-envelope-at-fill:hover {
-    color: #8273D3;
-}
-
-.light .bi-github:hover {
-    color: #7060CD;
-}
-
-.light .bi-linkedin:hover {
-    color: #7060CD;
-}
-
-.light .bi-envelope-at-fill:hover {
     color: #8273D3;
 }
 
@@ -131,70 +100,93 @@ body.light {
     text-decoration: none;
 }
 
-.email-text:hover {
-    color: #8273D3;
-}
 
-.light .email-text:hover {
+
+.email-text:hover {
     color: #7060CD;
 }
 
-.projet-link {
-    color: #8273D3;
-}
 
-.light .projet-link {
+.projet-link {
     color: #7060CD;
 }
 
 /* --------------Competences----------*/
-.competence-border {
-    border: 1.8px solid #2C496B;
-    background-color: #021628;
-    border-radius: 16px;
-    transition: background-color 0.3s ease, border 0.3s ease;
-}
 
-.light .competence-border {
-    border: 1.8px solid #c4c4c4;
-    background-color: #F1F3F5;
-    border-radius: 16px;
-}
 
-.carousel {
-    overflow: hidden;
-    width: 100%;
-}
-
-.carousel-sub {
+.tags {
     display: flex;
-    flex-wrap: nowrap;
-    width: max-content;
-    animation: scroll 16s linear infinite;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.carousel:hover .carousel-sub {
-    animation-play-state: paused;
+
+.tools h2 {
+    margin: 0;
 }
 
-.group {
+.tag {
+    background: #F1F3F5;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
+    cursor: default;
+    transition: background-color 0.2s ease, border 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.tag.active {
+    background-color: #8C83EC;
+    color: white;
+    border-color: #726BB8;
+    box-shadow: 0 2px 0 #726BB8;
+    transform: translateY(2px);
+}
+
+.checkbox-group {
     display: flex;
-    gap: 2em;
-    padding-right: 1.9em;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.logo {
-    flex: 0 0 auto;
-    height: 6em;
-    padding: 1em;
-    transition: transform 0.2s ease;
+/* Hide default checkbox */
+.checkbox-group input[type="checkbox"] {
+    display: none;
 }
 
-.logo:hover {
-    transform: scale(1.07);
-    font-weight: 230;
-
+/* Style the label like a pill */
+.checkbox-group label {
+    background: #F1F3F5;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: background-color 0.2s ease, border 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
+
+/* Hover effect */
+.checkbox-group label:hover {
+    background-color: #8C83EC;
+    color: white;
+    border-color: #726BB8;
+    box-shadow: 0 2px 0 #726BB8;
+}
+
+/* Checked state */
+.checkbox-group input[type="checkbox"]:checked+label {
+    background-color: #8C83EC;
+    color: white;
+    border-color: #726BB8;
+    box-shadow: 0 2px 0 #726BB8;
+    transform: translateY(2px);
+}
+
+
 
 @keyframes scroll {
     from {
@@ -208,10 +200,11 @@ body.light {
 
 /* --------------Projets----------*/
 .card {
-    border: 1.8px solid #2C496B;
-    border-radius: 16px;
-    background-color: #021628;
-    color: #E0E6ED;
+    border: 1.8px solid #c4c4c4;
+    border-radius: 8px;
+    background-color: #F1F3F5;
+    color: black;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -230,35 +223,30 @@ body.light {
 
 .card-text {
     min-height: 4.5em;
+    color: #333;
+    transition: color 0.3s ease;
 }
 
-.light .card {
-    color: black;
-    border: 1.8px solid #c4c4c4;
-    background-color: #F1F3F5;
-}
-
-.light .card:hover {
-    border: 1.8px solid rgb(27, 27, 27);
-    background-color: rgb(27, 27, 27);
-    color: white;
-
+.card:hover .card-text {
+    color: #F1F3F5;
 }
 
 
 .card:hover {
-    border: 1.8px solid rgb(239, 241, 245);
-    background-color: rgb(239, 241, 245);
-    color: black;
+    border: 1.8px solid rgb(27, 27, 27);
+    background-color: rgb(27, 27, 27);
+    color: #F1F3F5;
     cursor: pointer;
-
 }
+
+
+
 
 .card-img-top {
     height: 225px;
     width: 100%;
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 
@@ -273,10 +261,9 @@ body.light {
 
 
 .pilule {
-    border-radius: 16px;
+    border-radius: 8px;
     color: black;
     background-color: rgb(224, 230, 236);
-
     margin: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
     padding: 4px 12px;
@@ -289,11 +276,11 @@ body.light {
 }
 
 .pilule-projet {
-    background-color: #695deb;
-    color: white;
+    background-color: #8C83EC;
+    color: #111111;
     padding: 0.5em 5em;
     margin: 5px;
-    border-radius: 50px;
+    border-radius: 8px;
     font-size: 14px;
     display: inline-flex;
     justify-content: center;
@@ -303,12 +290,6 @@ body.light {
 
 }
 
-.light .pilule-projet {
-    background-color: #8C83EC;
-    color: black;
-
-
-}
 
 .pills-row {
     display: flex;
@@ -318,23 +299,19 @@ body.light {
 }
 
 
-.light .pilule {
-    color: white;
+.pilule {
+    color: #F1F3F5;
     background-color: #121212;
 
 }
 
 
+
+
 .card:hover .pilule {
-    background-color: #695deb;
-    color: #F8F9FA;
-
-
-}
-
-.light .card:hover .pilule {
     background-color: #8C83EC;
     color: #111111;
+    border-color: #726BB8;
 
 
 }
@@ -350,18 +327,15 @@ body.light {
 
 /* ------------Contacts----------*/
 .contact {
-    border: 1.8px solid #2C496B;
-    background-color: #021628;
-    color: #E0E6ED;
-    border-radius: 16px;
-    transition: background-color 0.3s ease, border 0.3s ease;
-}
-
-.light .contact {
     border: 1.8px solid #c4c4c4;
     color: black;
     background-color: #F1F3F5;
+    border-radius: 8px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
+    transition: background-color 0.3s ease, border 0.3s ease;
 }
+
+
 
 
 .projets-titre {
@@ -437,14 +411,15 @@ body.light {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
     width: 840px;
     max-width: 100%;
     height: 100%;
-    border: 1.9px solid #2C496B;
-    border-radius: 16px;
+    border: 1.9px solid #c4c4c4;
+    background-color: #F1F3F5;
+    border-radius: 8px;
     pointer-events: none;
     box-sizing: border-box;
-    background-color: #021628;
     z-index: -1;
 
 
@@ -476,14 +451,6 @@ body.light {
 
 
 
-
-
-.light .projet-border::before {
-    border: 1.9px solid #c4c4c4;
-    background-color: #F1F3F5;
-}
-
-
 .photo-conception {
     width: 50%;
 
@@ -502,7 +469,7 @@ body.light {
 
 .carousel-inner {
 
-    border-radius: 16px;
+    border-radius: 8px;
 
 }
 
@@ -516,5 +483,9 @@ body.light {
 @media (max-width: 767px) {
     .carousel-inner img {
         height: 300px;
+    }
+
+    .photo-projet {
+        max-height: 300px;
     }
 }

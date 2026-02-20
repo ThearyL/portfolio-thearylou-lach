@@ -19,7 +19,7 @@
     <div id="app" :class="theme">
         <!---------------------------------Header------------------------------->
         <header>
-            <nav class="navbar navbar-expand bg-transparent" :class="theme == 'dark' ? 'navbar-dark' : 'navbar-light'">
+            <nav class="navbar navbar-expand bg-transparent navbar-light">
                 <div class="container">
                     <!--------------------Centrer la navigation au milieu sur col-8 et prend toute la largeur de l'ecran------------------------------->
                     <div class="row w-100 justify-content-center">
@@ -35,11 +35,7 @@
                                     <a class="nav-link" href="index.html#contact">Contact</a>
                                 </li>
                             </ul>
-                            <!------------------changement de theme---------------------------------------->
-                            <button @click="toggleTheme" class="btn mt-1 p-0">
-                                <i
-                                    :class="theme == 'dark' ? 'bi bi-sun-fill text-white fs-5' : 'bi bi-moon-fill text-dark fs-5'"></i>
-                            </button>
+
                         </div>
                     </div>
                 </div>
@@ -220,7 +216,7 @@
 
         </main>
 
-        <footer class="container d-flex justify-content-center mt-5 pt-5">© Thearylou Lach 2025</footer>
+        <footer class="container d-flex justify-content-center mt-5 pt-5">© Thearylou Lach 2026</footer>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="script.js"></script>
