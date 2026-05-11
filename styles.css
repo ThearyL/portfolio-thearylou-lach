@@ -113,38 +113,6 @@ svg {
 
 /* --------------Competences----------*/
 
-
-.tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-
-.tools h2 {
-    margin: 0;
-}
-
-.tag {
-    background: #F1F3F5;
-    padding: 8px 14px;
-    border-radius: 8px;
-    font-size: 14px;
-    color: #333;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
-    cursor: default;
-    transition: background-color 0.2s ease, border 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.tag.active {
-    background-color: #8C83EC;
-    color: white;
-    border-color: #726BB8;
-    box-shadow: 0 2px 0 #726BB8;
-    transform: translateY(2px);
-}
-
 .checkbox-group {
     display: flex;
     flex-wrap: wrap;
@@ -166,7 +134,7 @@ svg {
     border: 1px solid #ddd;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
     cursor: pointer;
-    transition: background-color 0.2s ease, border 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    transition: background-color 0.2s ease, border 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
 }
 
 /* Hover effect */

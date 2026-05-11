@@ -53,7 +53,7 @@ const app = Vue.createApp({
         gsap.from(".contact", {
             scrollTrigger: {
                 trigger: ".contact",
-                start: "top 95%",
+                start: "top 98%",
                 toggleActions: "play none none none",
             },
             y: 100,
@@ -79,7 +79,7 @@ const app = Vue.createApp({
             return this.projet && this.projet.id === 3;
         },
 
-        // <-- Added: Filtre les projets selon les compétences sélectionnées
+        // Filtre les projets selon les compétences sélectionnées
         filteredProjects() {
             // Si aucune case n'est cochée → afficher tous les projets
             if (this.selectedCategories.length === 0) {
@@ -94,6 +94,14 @@ const app = Vue.createApp({
             );
         }
     },
+    watch: {
+        selectedCategories() {
+            this.$nextTick(() => {
+                ScrollTrigger.refresh();
+            });
+        }
+    },
+
 
     methods: {
         //Cherche les donnees dans le json

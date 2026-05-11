@@ -1,28 +1,30 @@
 [
     {
-        "id": 1,
-        "title": "L'épée oubliée",
-        "category": "Jeu 2D",
-        "shortDescription": "Créer un jeu 2D compatible sur le navigateur.",
-        "description": "Réaliser un projet ludique sur ordinateur qui intègre des images et des échantillons sonores libres de droits. Créer une expérience ludique à travers laquelle l’interacteur progresse selon ses actions. Ce jeu se déroule dans un donjon à deux niveaux, où chaque vague d'ennemis doit être éliminée pour obtenir une clé permettant de passer au niveau suivant. Le joueur doit survivre aux ennemis croissants et maîtriser les stratégies de combat pour progresser à travers le donjon.",
-        "team": "Thearylou Lach (créateur)",
+        "id": 5,
+        "title": "Vos voyages en mémoires",
+        "category": "Web",
+        "shortDescription": "Développer en équipe d'un site Web avec Vue.js",
+        "description": "Vos voyages en mémoires » est un musée interactif développé en équipe avec Vue.js ayant pour objectif de permettre aux utilisateurs de conserver et organiser leurs souvenirs de voyage dans différentes salles thématiques. Le site offre la possibilité d’ajouter, modifier et classer des souvenirs avec des tags et des légendes, tout en facilitant la recherche et le filtrage des contenus. Les données sont sauvegardées localement dans le navigateur afin d’assurer une expérience simple et accessible.",
+        "team": "Radhouane Kordan (Chef de projet), Thearylou Lach (Responsable du design) et Amira Tounekti (Composantes et style CSS)",
         "skills": [
-            "Phaser",
-            "JavaScript"
+            "HTML/CSS",
+            "JavaScript",
+            "Vue.js"
         ],
         "images": [
-            "./image/projet_jeu_accueil.jpg",
-            "./image/jeu_phaser_01.png",
-            "./image/jeu_phaser_02.JPG",
-            "./image/jeu_phaser_03.JPG"
+            "./image/projet_vos_voyages_memoires.jpg",
+            "./image/vos_voyages_memoires_projet_01.jpg",
+            "./image/vos_voyages_memoires_projet_02.jpg",
+            "./image/vos_voyages_memoires_projet_03.jpg"
         ],
         "alt": [
-            "Jeu Phaser",
-            "l'épée oubliée en jeu",
-            "l'épée oubliée en jeu",
-            "l'épée oubliée en jeu"
+            "Vos voyages en mémoires",
+            "Choix de destination",
+            "Cartes mémoires",
+            "Modifier mémoire"
         ],
-        "link": "https://ntrace.itch.io/lepee-oubliee"
+        "link": "https://rad8433.github.io/webapp-creative-Radhouane-Thearylou-Amira/#/",
+        "link2": "https://github.com/Rad8433/webapp-creative-Radhouane-Thearylou-Amira"
     },
     {
         "id": 2,
@@ -112,5 +114,30 @@
             "L'espace Intégral article",
             "L'espace contactte"
         ]
+    },
+    {
+        "id": 1,
+        "title": "L'épée oubliée",
+        "category": "Jeu 2D",
+        "shortDescription": "Créer un jeu 2D compatible sur le navigateur.",
+        "description": "Réaliser un projet ludique sur ordinateur qui intègre des images et des échantillons sonores libres de droits. Créer une expérience ludique à travers laquelle l’interacteur progresse selon ses actions. Ce jeu se déroule dans un donjon à deux niveaux, où chaque vague d'ennemis doit être éliminée pour obtenir une clé permettant de passer au niveau suivant. Le joueur doit survivre aux ennemis croissants et maîtriser les stratégies de combat pour progresser à travers le donjon.",
+        "team": "Thearylou Lach (créateur)",
+        "skills": [
+            "Phaser",
+            "JavaScript"
+        ],
+        "images": [
+            "./image/projet_jeu_accueil.jpg",
+            "./image/jeu_phaser_01.png",
+            "./image/jeu_phaser_02.JPG",
+            "./image/jeu_phaser_03.JPG"
+        ],
+        "alt": [
+            "Jeu Phaser",
+            "l'épée oubliée en jeu",
+            "l'épée oubliée en jeu",
+            "l'épée oubliée en jeu"
+        ],
+        "link": "https://ntrace.itch.io/lepee-oubliee"
     }
 ]
