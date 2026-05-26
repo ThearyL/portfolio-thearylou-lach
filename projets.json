@@ -3,7 +3,7 @@
         "id": 5,
         "title": "Vos voyages en mémoires",
         "category": "Web",
-        "shortDescription": "Développer en équipe d'un site Web avec Vue.js",
+        "shortDescription": "Développer en équipe un site Web avec Vue.js",
         "description": "Vos voyages en mémoires est un musée interactif développé en équipe avec Vue.js ayant pour objectif de permettre aux utilisateurs de conserver et organiser leurs souvenirs de voyage dans différentes salles thématiques. Le site offre la possibilité d’ajouter, modifier et classer des souvenirs avec des tags et des légendes, tout en facilitant la recherche et le filtrage des contenus. Les données sont sauvegardées localement dans le navigateur afin d’assurer une expérience simple et accessible.",
         "team": "Radhouane Kordan (Chef de projet), Thearylou Lach (Responsable du design) et Amira Tounekti (Composantes et style CSS)",
         "skills": [

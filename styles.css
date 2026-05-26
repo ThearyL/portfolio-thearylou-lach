@@ -251,6 +251,13 @@ svg {
     --bs-gutter-x: 0;
 }
 
+.pilule.active {
+    background-color: #8C83EC;
+    color: #111111;
+    border-color: #726BB8;
+    transition: none;
+}
+
 .pilule-projet {
     background-color: #8C83EC;
     color: #111111;

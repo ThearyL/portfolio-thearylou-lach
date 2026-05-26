@@ -132,14 +132,14 @@
 
                                     <input type="checkbox" id="photoshop" value="Photoshop"
                                         v-model="selectedCategories">
-                                    <label for="photoshop">Adobe Photoshop</label>
+                                    <label for="photoshop">Photoshop</label>
 
                                     <input type="checkbox" id="illustrator" value="Illustrator"
                                         v-model="selectedCategories">
-                                    <label for="illustrator">Adobe Illustrator</label>
+                                    <label for="illustrator">Illustrator</label>
 
                                     <input type="checkbox" id="after" value="After Effect" v-model="selectedCategories">
-                                    <label for="after">Adobe After Effects</label>
+                                    <label for="after">After Effects</label>
 
                                     <input type="checkbox" id="davinci" value="Davinci Resolve"
                                         v-model="selectedCategories">
@@ -185,7 +185,8 @@
                                         <p class="card-text">{{ donnee.shortDescription }}</p>
 
                                         <div class="row gx-0 pills-row">
-                                            <div class="col-auto pilule" v-for="skill in donnee.skills" :key="skill">
+                                            <div class="col-auto pilule" v-for="skill in donnee.skills" :key="skill"
+                                                :class="{ active: selectedCategories.includes(skill) }">
                                                 <span>{{ skill }}</span>
                                             </div>
                                         </div>
