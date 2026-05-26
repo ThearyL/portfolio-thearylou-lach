@@ -27,6 +27,31 @@
         "link2": "https://github.com/Rad8433/webapp-creative-Radhouane-Thearylou-Amira"
     },
     {
+        "id": 6,
+        "title": "Clinique Apprendre",
+        "category": "Design graphique et Web",
+        "shortDescription": "Redesigner quelques page d'un site Web et les intégrer sur WordPress",
+        "description": "Conception et redesign de plusieurs pages web à l’aide de prototypes réalisés sur Figma afin d’améliorer l’apparence visuelle et l’expérience utilisateur du site. Les maquettes ont été créées en respectant la signalétique et l’identité visuelle déjà établies du site web afin d’assurer une cohérence graphique et une expérience utilisateur uniforme. Intégration des designs sur WordPress en utilisant le plugin Divi pour développer des pages modernes, responsives et faciles à gérer. Adaptation des interfaces pour mobile, tablette et ordinateur tout en maintenant une navigation fluide et cohérente.",
+        "team": "Thearylou Lach",
+        "skills": [
+            "Figma",
+            "WordPress"
+        ],
+        "images": [
+            "./image/projet_clinique_apprendre.jpg",
+            "./image/clinique_apprendre_projet_01.jpg",
+            "./image/clinique_apprendre_projet_02.jpg",
+            "./image/clinique_apprendre_projet_03.jpg"
+        ],
+        "alt": [
+            "Vos voyages en mémoires",
+            "Choix de destination",
+            "Cartes mémoires",
+            "Modifier mémoire"
+        ],
+        "link": "https://www.figma.com/design/BIQLVcxKDU4F76hFPFRgYn/Clinique-Apprendre?node-id=0-1&t=xJC8sL574uX2ZKWe-1"
+    },
+    {
         "id": 2,
         "title": "La Pilule",
         "category": "Vidéo et photographie",
@@ -99,12 +124,11 @@
         "description": "L’objectif de ce travail personel est de concevoir, développer et présenter un magazine Web sous WordPress, en intégrant l’ensemble des notions vues durant la session, dans un contexte collaboratif. On a créé ensemble un magazine web sur l’espace avec WordPress en utilisant un thème adapté. On y a ajouté des images, des textes, ainsi que des extensions et une API pour réaliser ce projet. Ce projet est hébergé sur HostPapa",
         "team": "Ryan Dufault (directeur), Thearylou Lach (co-créateur) et Yannick Chamberland (co-créateur)",
         "skills": [
-            "WordPress",
-            "MAMP"
+            "WordPress"
         ],
         "images": [
             "./image/projet_wordpress_accueil.jpg",
-            "./image/wordpress_projet_01.png",
+            "./image/wordpress_projet_01.jpg",
             "./image/wordpress_projet_02.png",
             "./image/wordpress_projet_04.png"
         ],

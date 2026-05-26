@@ -12,7 +12,10 @@
     <link href="styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/TextPlugin.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs/dist/bundles/anime.umd.min.js"></script>
 </head>
 
 <body>
@@ -45,14 +48,15 @@
 
         <main class="container mt-4 pt-4">
             <!---------------------------a propos------------------------------>
-            <section class="info container mt-4 ">
+            <section class="info container mt-4">
                 <!------------------separation en deux groupes les contenus info et photo---------------------------------------->
                 <div class="d-flex row justify-content-center ">
                     <div class="col-12 col-lg-8 col-xl-5">
-                        <h1>Hey, c'est <span class="text-purple fw-bold">Thearylou</span>!<span class="emoji">👋</span>
+                        <h1 class="split">Hey, c'est <span class="text-purple fw-bold">Thearylou</span>!<span
+                                class="emoji">👋</span>
                         </h1>
-                        <p class="text-propos mt-3">
-                            Je suis étudiant en multimédia, passionné par le <span
+                        <p class="text-propos mt-3 split">
+                            Finissant en Techniques d’intégration multimédia, je suis passionné par le <span
                                 class="text-purple fw-bold">développement
                                 web</span> et la<span class="text-purple fw-bold"> création de contenus
                                 numériques</span>.
@@ -111,6 +115,10 @@
 
                                     <input type="checkbox" id="vue" value="Vue.js" v-model="selectedCategories">
                                     <label for="vue">Vue.js</label>
+
+                                    <input type="checkbox" id="wordpress" value="WordPress"
+                                        v-model="selectedCategories">
+                                    <label for="wordpress">WordPress</label>
                                 </div>
 
                             </div>
@@ -119,10 +127,6 @@
                             <div class="col-md-6 mb-4 mb-md-0 mt-5">
                                 <h2>Outils</h2>
                                 <div class="checkbox-group mt-3">
-                                    <input type="checkbox" id="wordpress" value="WordPress"
-                                        v-model="selectedCategories">
-                                    <label for="wordpress">WordPress</label>
-
                                     <input type="checkbox" id="figma" value="Figma" v-model="selectedCategories">
                                     <label for="figma">Figma</label>
 
@@ -201,7 +205,7 @@
                 <div id="contact" class="row justify-content-center">
                     <div class="col-12 col-lg-8">
                         <h1 class="mb-3">Contactez-moi</h1>
-                        <div class="row g-3 d-flex">
+                        <div class="row g-3 d-flex mb-3">
                             <div class="col-12 col-md-6 d-flex">
                                 <div class="contact pt-3 pb-3 text-center flex-fill">
                                     <h5>Courriel</h5>
@@ -222,6 +226,22 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-12 ">
+                            <div class="contact pb-3 pt-3 text-center flex-fill">
+
+                                <h5 class="mt-2">Situé dans le Grand Montréal</h5>
+                                <p class="timezone">
+                                </p>Heure locale : {{ formatToEST(currentTime) }} <span id="est-time"></span>
+                                </p>
+                                <picture>
+                                    <source media="(max-width: 768px)" srcset="./image/carte-mobile.jpg">
+
+                                    <img class="img-fluid map" src="./image/carte.jpg" alt="Carte Montréal">
+                                </picture>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </section>
