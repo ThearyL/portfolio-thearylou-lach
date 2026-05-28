@@ -115,6 +115,8 @@ svg {
 
 
 .projet-link {
+    display: block;
+    margin-bottom: 8px;
     color: #7060CD;
 }
 
@@ -145,11 +147,13 @@ svg {
 }
 
 /* Hover effect */
-.checkbox-group label:hover {
-    background-color: #8C83EC;
-    color: white;
-    border-color: #726BB8;
-    box-shadow: 0 2px 0 #726BB8;
+@media (hover: hover) {
+    .checkbox-group label:hover {
+        background-color: #8C83EC;
+        color: white;
+        border-color: #726BB8;
+        box-shadow: 0 2px 0 #726BB8;
+    }
 }
 
 /* Checked state */
@@ -333,7 +337,7 @@ svg {
 }
 
 .timezone {
-    margin-top: -1em;
+    margin-top: -0.2em;
 
 }
 
