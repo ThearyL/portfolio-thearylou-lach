@@ -32,7 +32,7 @@
         "category": "Design graphique et Web",
         "shortDescription": "Redesigner quelques page d'un site Web et les intégrer sur WordPress",
         "description": "Conception et redesign de plusieurs pages web à l’aide de prototypes réalisés sur Figma afin d’améliorer l’apparence visuelle et l’expérience utilisateur du site. Les maquettes ont été créées en respectant la signalétique et l’identité visuelle déjà établies du site web afin d’assurer une cohérence graphique et une expérience utilisateur uniforme. Intégration des designs sur WordPress en utilisant le plugin Divi pour développer des pages modernes, responsives et faciles à gérer. Adaptation des interfaces pour mobile, tablette et ordinateur tout en maintenant une navigation fluide et cohérente.",
-        "team": "Thearylou Lach",
+        "team": "",
         "skills": [
             "Figma",
             "WordPress"
@@ -44,10 +44,10 @@
             "./image/clinique_apprendre_projet_03.jpg"
         ],
         "alt": [
-            "Vos voyages en mémoires",
-            "Choix de destination",
-            "Cartes mémoires",
-            "Modifier mémoire"
+            "Clinique Apprendre",
+            "Design sur Figma",
+            "Page sur Clinique Apprendre",
+            "Page sur Clinique Apprendre"
         ],
         "link": "https://www.figma.com/design/BIQLVcxKDU4F76hFPFRgYn/Clinique-Apprendre?node-id=0-1&t=xJC8sL574uX2ZKWe-1"
     },
@@ -83,7 +83,7 @@
         "category": "Design graphique et Web",
         "shortDescription": "Redésigner quelques pages d'un site Web.",
         "description": "Démontrer le processus de création d'un site web en appliquant les notions de design apprises en classe. Il s’agit également de savoir utiliser efficacement les différents outils de Figma. Redésigner sur Figma certaines pages du site web d’un musée canadien en nous inspirant d’autres sites. Utilisation des planches d’inspiration et de style ainsi que des maquettes filaires et graphiques pour réaliser ce projet, et le rendre interactif.",
-        "team": "Thearylou Lach (créateur)",
+        "team": "",
         "skills": [
             "Figma"
         ],
@@ -145,7 +145,7 @@
         "category": "Jeu 2D",
         "shortDescription": "Créer un jeu 2D compatible sur le navigateur.",
         "description": "Réaliser un projet ludique sur ordinateur qui intègre des images et des échantillons sonores libres de droits. Créer une expérience ludique à travers laquelle l’interacteur progresse selon ses actions. Ce jeu se déroule dans un donjon à deux niveaux, où chaque vague d'ennemis doit être éliminée pour obtenir une clé permettant de passer au niveau suivant. Le joueur doit survivre aux ennemis croissants et maîtriser les stratégies de combat pour progresser à travers le donjon.",
-        "team": "Thearylou Lach (créateur)",
+        "team": "",
         "skills": [
             "Phaser",
             "JavaScript"

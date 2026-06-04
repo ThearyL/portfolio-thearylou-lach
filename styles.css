@@ -150,7 +150,7 @@ svg {
 @media (hover: hover) {
     .checkbox-group label:hover {
         background-color: #8C83EC;
-        color: white;
+        color: #111111;
         border-color: #726BB8;
         box-shadow: 0 2px 0 #726BB8;
     }
@@ -159,7 +159,7 @@ svg {
 /* Checked state */
 .checkbox-group input[type="checkbox"]:checked+label {
     background-color: #8C83EC;
-    color: white;
+    color: black;
     border-color: #726BB8;
     box-shadow: 0 2px 0 #726BB8;
     transform: translateY(2px);
