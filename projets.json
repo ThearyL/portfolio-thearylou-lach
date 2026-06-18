@@ -27,55 +27,30 @@
         "link2": "https://github.com/Rad8433/webapp-creative-Radhouane-Thearylou-Amira"
     },
     {
-        "id": 6,
-        "title": "Clinique Apprendre",
-        "category": "Design graphique et Web",
-        "shortDescription": "Redesigner quelques page d'un site Web et les intégrer sur WordPress",
-        "description": "Conception et redesign de plusieurs pages web à l’aide de prototypes réalisés sur Figma afin d’améliorer l’apparence visuelle et l’expérience utilisateur du site. Les maquettes ont été créées en respectant la signalétique et l’identité visuelle déjà établies du site web afin d’assurer une cohérence graphique et une expérience utilisateur uniforme. Intégration des designs sur WordPress en utilisant le plugin Divi pour développer des pages modernes, responsives et faciles à gérer. Adaptation des interfaces pour mobile, tablette et ordinateur tout en maintenant une navigation fluide et cohérente.",
+        "id": 7,
+        "title": "Gestion de factures",
+        "category": "Web",
+        "shortDescription": "Créer une application de gestion de factures avec opérations CRUD et synchronisation Firebase.",
+        "description": "Développer une application de gestion de factures dans le cadre d’un projet d’apprentissage basé sur un tutoriel de John Komarnicki. Le projet a été modernisé avec Vue 3, Pinia et Firebase afin d’approfondir la gestion d’état, la synchronisation des données et les opérations CRUD.",
         "team": "",
         "skills": [
-            "Figma",
-            "WordPress"
+            "Vue.js",
+            "Firebase"
         ],
         "images": [
-            "./image/projet_clinique_apprendre.jpg",
-            "./image/clinique_apprendre_projet_01.jpg",
-            "./image/clinique_apprendre_projet_02.JPG",
-            "./image/clinique_apprendre_projet_03.JPG"
+            "./image/project_gestion_factures.png",
+            "./image/project_facture_01.png",
+            "./image/project_facture_02.png",
+            "./image/project_facture_03.png"
         ],
         "alt": [
-            "Clinique Apprendre",
-            "Design sur Figma",
-            "Page sur Clinique Apprendre",
-            "Page sur Clinique Apprendre"
+            "Gestion de factures",
+            "Facture accueil",
+            "Facture",
+            "Facture"
         ],
-        "link": "https://www.figma.com/design/BIQLVcxKDU4F76hFPFRgYn/Clinique-Apprendre?node-id=0-1&t=xJC8sL574uX2ZKWe-1"
-    },
-    {
-        "id": 2,
-        "title": "La Pilule",
-        "category": "Vidéo et photographie",
-        "shortDescription": "Création d'un court métrage en stop-motion avec des animations 2D et une piste sonore ambiguë.",
-        "description": " Un court métrage de plus d’une minute, réalisé en stop-motion avec un minimum de 800 prises de photos. Ensuite, en post-production, il faudra assembler la vidéo à partir des photos prises, y ajouter le son et intégrer les animations créées. Mes coéquipiers et moi avons conçu et réalisé une vidéo en explorant un univers visuel rouge où un écrivain prend une pilule et il se perd dans la réalité et l'imaginaire. J'ai travaillé sur la mise en scène, la conception sonore, l’animation et le montage.",
-        "team": "Thearylou Lach (réalisateur),Ting yung Lu (directeur de la photographie), Nicolas Cruz (concepteur sonore) et Xavier Martineau (directeur artistique)",
-        "skills": [
-            "Davinci Resolve",
-            "Illustrator",
-            "After Effect"
-        ],
-        "images": [
-            "./image/projet_video_accueil.jpg",
-            "./image/02_la_pilule_presentation.jpg",
-            "./image/01_la_pilule_presentation.jpg",
-            "./image/03_la_pilule_presentation.jpg"
-        ],
-        "alt": [
-            "La Pilule",
-            "La Pilule scène 1",
-            "La Pilule scène 2",
-            "La Pilule scène 3"
-        ],
-        "link": "https://youtu.be/4yuEefaBhws"
+        "link": "https://thearyl.github.io/vue-project-facture/",
+        "link2": "https://github.com/ThearyL/vue-project-facture"
     },
     {
         "id": 3,
@@ -115,6 +90,31 @@
             "Maquette graphique accueil",
             "Maquette graphique admission"
         ]
+    },
+    {
+        "id": 6,
+        "title": "Clinique Apprendre",
+        "category": "Design graphique et Web",
+        "shortDescription": "Redesigner quelques page d'un site Web et les intégrer sur WordPress",
+        "description": "Conception et redesign de plusieurs pages web à l’aide de prototypes réalisés sur Figma afin d’améliorer l’apparence visuelle et l’expérience utilisateur du site. Les maquettes ont été créées en respectant la signalétique et l’identité visuelle déjà établies du site web afin d’assurer une cohérence graphique et une expérience utilisateur uniforme. Intégration des designs sur WordPress en utilisant le plugin Divi pour développer des pages modernes, responsives et faciles à gérer. Adaptation des interfaces pour mobile, tablette et ordinateur tout en maintenant une navigation fluide et cohérente.",
+        "team": "",
+        "skills": [
+            "Figma",
+            "WordPress"
+        ],
+        "images": [
+            "./image/projet_clinique_apprendre.jpg",
+            "./image/clinique_apprendre_projet_01.jpg",
+            "./image/clinique_apprendre_projet_02.JPG",
+            "./image/clinique_apprendre_projet_03.JPG"
+        ],
+        "alt": [
+            "Clinique Apprendre",
+            "Design sur Figma",
+            "Page sur Clinique Apprendre",
+            "Page sur Clinique Apprendre"
+        ],
+        "link": "https://www.figma.com/design/BIQLVcxKDU4F76hFPFRgYn/Clinique-Apprendre?node-id=0-1&t=xJC8sL574uX2ZKWe-1"
     },
     {
         "id": 4,
@@ -163,5 +163,31 @@
             "l'épée oubliée en jeu"
         ],
         "link": "https://ntrace.itch.io/lepee-oubliee"
+    },
+    {
+        "id": 2,
+        "title": "La Pilule",
+        "category": "Vidéo et photographie",
+        "shortDescription": "Création d'un court métrage en stop-motion avec des animations 2D et une piste sonore ambiguë.",
+        "description": " Un court métrage de plus d’une minute, réalisé en stop-motion avec un minimum de 800 prises de photos. Ensuite, en post-production, il faudra assembler la vidéo à partir des photos prises, y ajouter le son et intégrer les animations créées. Mes coéquipiers et moi avons conçu et réalisé une vidéo en explorant un univers visuel rouge où un écrivain prend une pilule et il se perd dans la réalité et l'imaginaire. J'ai travaillé sur la mise en scène, la conception sonore, l’animation et le montage.",
+        "team": "Thearylou Lach (réalisateur),Ting yung Lu (directeur de la photographie), Nicolas Cruz (concepteur sonore) et Xavier Martineau (directeur artistique)",
+        "skills": [
+            "Davinci Resolve",
+            "Illustrator",
+            "After Effect"
+        ],
+        "images": [
+            "./image/projet_video_accueil.jpg",
+            "./image/02_la_pilule_presentation.jpg",
+            "./image/01_la_pilule_presentation.jpg",
+            "./image/03_la_pilule_presentation.jpg"
+        ],
+        "alt": [
+            "La Pilule",
+            "La Pilule scène 1",
+            "La Pilule scène 2",
+            "La Pilule scène 3"
+        ],
+        "link": "https://youtu.be/4yuEefaBhws"
     }
 ]
