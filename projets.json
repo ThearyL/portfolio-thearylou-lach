@@ -34,6 +34,8 @@
         "description": "Développer une application de gestion de factures dans le cadre d’un projet d’apprentissage basé sur un tutoriel de John Komarnicki. Le projet a été modernisé avec Vue 3, Pinia et Firebase afin d’approfondir la gestion d’état, la synchronisation des données et les opérations CRUD.",
         "team": "",
         "skills": [
+            "HTML/CSS",
+            "JavaScript",
             "Vue.js",
             "Firebase"
         ],
