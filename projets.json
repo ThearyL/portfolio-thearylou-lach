@@ -1,9 +1,36 @@
 [
     {
+        "id": 8,
+        "title": "Mission Décollage",
+        "category": "Expérience multimédia",
+        "shortDescription": "Développer en équipe une expérience coopérative",
+        "description": "Mission Décollage est une expérience coopérative pour 1 à 3 joueurs où tous se tiennent devant un panneau de contrôle rempli de boutons et d’interrupteurs afin de gérer les systèmes vitaux de la fusée, comme les propulseurs, le bouclier, la propulsion, le système de boost et d’autres mécanismes essentiels, dans une coordination parfaite, car rien ne peut fonctionner sans travail d’équipe. L’aventure commence lorsqu’un joueur appuie sur un bouton, lançant ainsi la première mission habitée vers une planète nouvellement découverte et potentiellement habitable, avec l’objectif d’y établir une présence humaine. Tout au long du voyage dans l’espace, les joueurs doivent esquiver les météorites, ajuster la trajectoire et maintenir la fusée opérationnelle pour atteindre leur destination et réussir l’atterrissage. Chaque décision compte : pour survivre et accomplir leur mission, ils devront communiquer efficacement, réagir rapidement et se faire confiance afin d’arriver sains et saufs et marquer l’histoire de l’exploration spatiale.",
+        "team": "Thearylou Lach, Justin Montpetit, Ahmed Kaïssoumi, Radhouane Kordan, Jad Saloumi",
+        "skills": [
+            "Unity",
+            "C++",
+            "Pure Data",
+            "Autodesk Maya"
+        ],
+        "images": [
+            "./image/projet_mission_decollage.png",
+            "./image/projet_mission_01.jpg",
+            "./image/projet_mission_02.jpg",
+            "./image/projet_mission_03.jpg"
+        ],
+        "alt": [
+            "Mission Décollage",
+            "présentation du projet",
+            "présentation du projet",
+            "Intérieur boîte"
+        ],
+        "link": "https://o-i-g-n-o-n.github.io/Mission-decollage/#/presse/"
+    },
+    {
         "id": 5,
         "title": "Vos voyages en mémoires",
         "category": "Web",
-        "shortDescription": "Développer en équipe un site Web avec Vue.js",
+        "shortDescription": "Développer en équipe une application Web interactive avec Vue.js",
         "description": "Vos voyages en mémoires est un musée interactif développé en équipe avec Vue.js ayant pour objectif de permettre aux utilisateurs de conserver et organiser leurs souvenirs de voyage dans différentes salles thématiques. Le site offre la possibilité d’ajouter, modifier et classer des souvenirs avec des tags et des légendes, tout en facilitant la recherche et le filtrage des contenus. Les données sont sauvegardées localement dans le navigateur afin d’assurer une expérience simple et accessible.",
         "team": "Radhouane Kordan (Chef de projet), Thearylou Lach (Responsable du design) et Amira Tounekti (Composantes et style CSS)",
         "skills": [

@@ -55,25 +55,6 @@ const app = Vue.createApp({
 
         // GSAP
         gsap.registerPlugin(ScrollTrigger);
-        gsap.registerPlugin(SplitText);
-
-        SplitText.create(".split", {
-
-            type: "lines, words",
-            mask: "lines",
-            autoSplit: true,
-
-            onSplit(self) {
-
-                return gsap.from(self.words, {
-                    duration: 0.3,
-                    y: 100,
-                    ease: "sine.out",
-                    autoAlpha: 0,
-                    stagger: 0.03,
-                });
-            }
-        });
 
         // CARDS ANIMATION
         gsap.from(".card-anim", {
